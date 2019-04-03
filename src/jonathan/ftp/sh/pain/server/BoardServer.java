@@ -79,6 +79,8 @@ public class BoardServer {
                         input = scanner.nextLine();
                         boards.retrieve(input);
                         break;
+                    case "exit":
+                        System.exit(0);
                     default:
                         break;
                 }
